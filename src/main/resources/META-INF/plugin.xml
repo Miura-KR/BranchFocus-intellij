@@ -2,11 +2,19 @@
 <idea-plugin>
     <id>com.k.pmpstudy.BranchFocus</id>
     <name>BranchFocus</name>
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor url="https://github.com/Miura-KR/BranchFocus-intellij.git">BranchFocus</vendor>
 
     <description><![CDATA[
-        Adds a "Focus in Log" action to the right-click menu on a branch in the Git Log view.<br>
-        Selecting it scrolls the adjacent commit graph to the tip of the chosen branch and selects it.
+        <p>
+            Adds a <b>Focus in Log</b> action to the Git Branches popup. When invoked on a branch or a tag,
+            the Git Log tool window opens (if it isn't already) and the commit graph scrolls to and selects
+            the tip commit of that reference.
+        </p>
+        <br><br><br>
+        <p>
+            Gitブランチ・ポップアップに <b>Focus in Log</b> アクションを追加します。ブランチまたはタグ上で実行すると、
+            Git Log ツールウィンドウが開き（未表示の場合）、コミットグラフがその参照の先端コミットへスクロール・選択されます。
+        </p>
         ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
