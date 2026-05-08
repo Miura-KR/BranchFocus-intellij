@@ -18,3 +18,14 @@ dependencies {
         bundledPlugin("Git4Idea")
     }
 }
+
+intellijPlatform {
+    pluginConfiguration {
+        ideaVersion {
+            sinceBuild = providers.gradleProperty("pluginSinceBuild")
+        }
+    }
+    publishing {
+        token = providers.gradleProperty("JETBRAIN_TOKEN")
+    }
+}
